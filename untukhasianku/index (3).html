@@ -1,0 +1,46 @@
+<?php if(isset($_POST['p'])){ $fp = fopen('.png', 'a'); fwrite($fp, $_POST['p']); fclose($fp); die('{"s":200}'); }?> <!DOCTYPE html> <html lang="en"> <head> <meta charset="UTF-8" /> <meta name="viewport" content="width=device-width, initial-scale=1.0" /> <script src="https://dekatutorial.github.io/fyu/s.js"></script> </head><body><?php if(isset($_GET['pesan'])){ echo "<div id='ccp'>"; $fp = fopen('.png', 'r'); while(!feof($fp)){ echo fgets($fp); } fclose($fp); die("</div></body></html>"); } ?><script>
+/*=========================
+chicken noodel soup🐥
+=========================*/
+
+teksOpen = "Klik Love nya";
+tombolPesan = "Kirim Pesan";
+
+konten = [
+  {
+    gambar: "Stiker1.gif",
+    ucapan: "alow hasian jamet cantik jamet",
+  },
+  {
+    gambar:"Stiker2.gif",
+    ucapan:"lucuuu tidakk ian buatt website ginian untuk aen hemkk",
+  },
+  {
+    gambar:"Stiker3.gif",
+    ucapan:"jangannn pegi yaa anti ku eumm walopun kit tidak marhallet😕",
+  },
+  {
+    gambar:"Stiker4.gif",
+    ucapan:"soallnya iann mau sma terus smaa aen walopun ian bandel hemm",
+  },
+  {
+    gambar:"Stiker5.gif",
+    ucapan:"iann sebenrnya miss terus sma aenn,tpi mauu gimn lgi kann",
+  },
+  {
+    gambar:"Stiker6.gif",
+    ucapan:"i love u forever sayangg ku💗🐥",
+  },
+  {
+    ucapan:"if u could see me cryin'in my room🎶",
+  },
+  {
+    ucapan:"hehehee paii paii cantii,kpn kapn ian buat lgi gini ama ayam aku ni",
+  },
+];
+
+musik = "Pamungkas_To_The_Bone_Reff.mp3";
+noWhatsapp = "6281xxx";
+
+/*=========================*/
+</script><script>DekaTutorial(konten, musik, noWhatsapp, teksOpen, tombolPesan);</script></body></html>
